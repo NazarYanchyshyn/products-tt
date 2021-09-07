@@ -1,0 +1,95 @@
+export const productsLists = [{
+  id: 1,
+  imageUrl: 'https://pngimg.com/uploads/apple/small/apple_PNG12497.png',
+  name: 'Product name1',
+  count: 4,
+  size: {
+    width: 200,
+    height: 200,
+  },
+  weight: '200g',
+  comments: [{
+    id: 1,
+    productId: 1,
+    description: 'some text here2',
+    date: '14:00 22.08.2009',
+  }, {
+    id: 2,
+    productId: 1,
+    description: 'some text here',
+    date: '14:00 22.08.2021',
+  },
+  {
+    id: 3,
+    productId: 1,
+    description: 'some text ',
+    date: '14:00 22.08.2061',
+  }],
+},
+{
+  id: 2,
+  imageUrl: 'https://pngimg.com/uploads/orange/small/orange_PNG811.png',
+  name: 'Product name2',
+  count: 4,
+  size: {
+    width: 200,
+    height: 200,
+  },
+  weight: '200g',
+  comments: [{
+    id: 1,
+    productId: 2,
+    description: 'some text here2',
+    date: '14:00 22.08.2015',
+  }, {
+    id: 2,
+    productId: 2,
+    description: 'some text here6',
+    date: '14:00 22.08.2011',
+  }],
+},
+{
+  id: 3,
+  imageUrl: 'https://pngimg.com/uploads/apricot/small/apricot_PNG12641.png',
+  name: 'Product name3',
+  count: 6,
+  size: {
+    width: 200,
+    height: 200,
+  },
+  weight: '200g',
+  comments: [{
+    id: 1,
+    productId: 3,
+    description: 'some text here6',
+    date: '14:00 22.08.2017',
+  }, {
+    id: 2,
+    productId: 3,
+    description: 'some text here2',
+    date: '14:00 22.08.2018',
+  }],
+},
+{
+  id: 4,
+  imageUrl: 'https://agro24.su/img/product/arbuz.png',
+  name: 'Product name4',
+  count: 8,
+  size: {
+    width: 200,
+    height: 200,
+  },
+  weight: '200g',
+  comments: [{
+    id: 1,
+    productId: 4,
+    description: 'some text here',
+    date: '14:00 22.08.2019',
+  }, {
+    id: 2,
+    productId: 4,
+    description: 'some text here',
+    date: '14:00 22.08.2020',
+  }],
+},
+];
